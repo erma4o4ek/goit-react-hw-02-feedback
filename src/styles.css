@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 10px;
+  background-color: #fff;
+  color: #2a2a2a;
+  line-height: 1.25;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
