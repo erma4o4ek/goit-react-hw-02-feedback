@@ -36,13 +36,13 @@ class App extends Component {
     const total = this.countTotalFeedback();
     const positivePercentage = this.countPositiveFeedbackPercentage();
 
-    const objKey = Object.keys(this.state);
+    const feedbackOptions = Object.keys(this.state);
 
     return (
       <div className="App">
         <Section title="Please leave feedback">
           <Feedback
-            options={objKey}
+            options={feedbackOptions}
             onLeaveFeedback={this.onLeaveFeedback}
           />
         </Section>
